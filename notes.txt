@@ -8,7 +8,7 @@ To use Oracle, use the following commands:
 
 To Scaffold your project, CD down to WebRestEF project, run the following command:
 
-dotnet ef dbcontext scaffold "Data Source=<IP>:<PORT>/<Service_Name>;User ID=<User ID>;Password=<Password>" Oracle.EntityFrameworkCore --namespace WebRest.EF.Models --context-namespace WebRest.EF.Data --output-dir Models --context-dir Data --context "WebRestOracleContext" --data-annotations --no-onconfiguring --force
+dotnet ef dbcontext scaffold "Data Source=3.239.12.168:1521/FREEPDB1;User ID=UD_amarnath;Password=UD_AMARNATH" Oracle.EntityFrameworkCore --namespace WebRest.EF.Models --context-namespace WebRest.EF.Data --output-dir Models --context-dir Data --context "WebRestOracleContext" --data-annotations --no-onconfiguring --force
 
 Adjust your appsettings.config:
 
